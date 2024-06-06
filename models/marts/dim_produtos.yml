@@ -1,0 +1,60 @@
+version: 2
+
+models:
+  - name: dim_produtos
+    description: >
+      Tabela dimensão dos produtos da Northwind. Tem categorização
+      para produtos descontinuados na coluna is_discontinuado.
+    columns:
+      - name: pk_produtos
+        description: Chave primária da dimensão de produtos.
+        tests:
+          - unique
+          - not_null
+
+      - name: PK_PRODUTOS
+        description: shashadhahdai
+
+      - name: NM_PRODUTO
+        description: shashadhahdai
+
+      - name: FK_FORNECEDOR
+        description: shashadhahdai
+
+      - name: FK_CATEGORIA
+        description: shashadhahdai
+
+      - name: QUANT_UNID
+        description: shashadhahdai
+
+      - name: PRECO_UNID
+        description: shashadhahdai
+
+      - name: QUANT_ESTOQUE
+        description: shashadhahdai
+
+      - name: UNID_PEDIDO
+        description: shashadhahdai
+
+      - name: NVL_PEDIDO
+        description: shashadhahdai
+
+      - name: IS_DISCONTINUADO
+        description: shashadhahdai
+
+      - name: NM_CATEGORY
+        description: shashadhahdai
+
+      - name: DS_CATEGORY
+        description: shashadhahdai
+
+      - name: NM_FORNECEDOR
+        description: shashadhahdai
+
+      - name: CIDADE_FORNECEDOR
+        description: shashadhahdai
+
+      - name: PAIS_FORNECEDOR              
+        description: shashadhahdai
+
+      
