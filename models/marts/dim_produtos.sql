@@ -13,7 +13,7 @@ with
     ),
     joined as (
         select
-            produtos.PK_PRODUTOS
+            produtos.pk_produtos
             ,produtos.NM_PRODUTO
             ,produtos.FK_FORNECEDOR
             ,produtos.FK_CATEGORIA
@@ -23,8 +23,8 @@ with
             ,produtos.UNID_PEDIDO
             ,produtos.NVL_PEDIDO
             ,produtos.IS_DISCONTINUADO
-            ,categorias.NM_CATEGORY
-            ,categorias.DS_CATEGORY
+            ,categorias.nm_categorias
+            ,categorias.ds_categorias
             ,fornecedores.NM_FORNECEDOR
             ,fornecedores.CIDADE_FORNECEDOR
             ,fornecedores.PAIS_FORNECEDOR
