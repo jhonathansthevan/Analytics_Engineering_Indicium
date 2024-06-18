@@ -42,7 +42,7 @@ models:
       - name: IS_DISCONTINUADO
         description: shashadhahdai
 
-      - name: NM_CATEGORY
+      - name: nm_categorias
         description: shashadhahdai
 
       - name: DS_CATEGORY
