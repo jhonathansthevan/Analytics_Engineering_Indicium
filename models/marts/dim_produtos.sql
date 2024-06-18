@@ -23,7 +23,7 @@ with
             ,produtos.UNID_PEDIDO
             ,produtos.NVL_PEDIDO
             ,produtos.IS_DISCONTINUADO
-            ,categorias.NM_CATEGORY
+            ,categorias.nm_categorias
             ,categorias.DS_CATEGORY
             ,fornecedores.NM_FORNECEDOR
             ,fornecedores.CIDADE_FORNECEDOR
