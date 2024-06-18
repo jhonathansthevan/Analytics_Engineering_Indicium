@@ -10,3 +10,39 @@ models:
         tests:
           - unique
           - not_null
+          
+      - name: DS_CATEGORIAS
+        description: ndcaosnfcopanpn
+
+      - name: NM_FORNECEDOR
+        description: ndcaosnfcopanpn
+
+      - name: CIDADE_FORNECEDOR
+        description: ndcaosnfcopanpn
+
+      - name: PAIS_FORNECEDOR
+        description: ndcaosnfcopanpn
+
+      - name: NM_FUNCIONARIO
+        description: ndcaosnfcopanpn
+
+      - name: CARGO_FUNCIONARIO
+        description: ndcaosnfcopanpn
+
+      - name: DT_CONTRATACAO
+        description: ndcaosnfcopanpn
+
+      - name: NM_GERENTE
+        description: ndcaosnfcopanpn
+
+      - name: VALOR_BRUTO
+        description: ndcaosnfcopanpn
+
+      - name: VALOR_LIQUIDO
+        description: ndcaosnfcopanpn
+
+      - name: SENIORIDADE_EM_ANOS
+        description: ndcaosnfcopanpn
+
+      - name: FRETE_RATEADO
+        description: ndcaosnfcopanpn
