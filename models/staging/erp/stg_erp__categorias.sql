@@ -3,7 +3,7 @@ with
         select  
             cast(ID as int) as pk_categoria,
             cast(CATEGORYNAME as varchar) as nm_categorias,
-            cast(DESCRIPTION as varchar) as ds_category
+            cast(DESCRIPTION as varchar) as ds_categorias
         from {{ source('erp', 'category') }}
     )
 

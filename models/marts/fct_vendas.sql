@@ -35,8 +35,8 @@ with
             , fatos.DATA_REQUERIDA_ENTREGA
             , dim_produtos.NM_PRODUTO
             , dim_produtos.IS_DISCONTINUADO
-            , dim_produtos.NM_CATEGORIA
-            , dim_produtos.DESCRICAO_CATEGORIAS
+            , dim_produtos.nm_categorias
+            , dim_produtos.ds_categorias
             , dim_produtos.NM_FORNECEDOR
             , dim_produtos.CIDADE_FORNECEDOR
             , dim_produtos.PAIS_FORNECEDOR
@@ -45,7 +45,7 @@ with
             , dim_funcionarios.DT_CONTRATACAO
             , dim_funcionarios.NM_GERENTE
         from pedido_por_itens as fatos
-        left join dim_produtos on fatos.fk_produto = dim_produtos.pk_produto
+        left join dim_produtos on fatos.fk_produto = dim_produtos.pk_produtos
         left join dim_funcionarios on fatos.fk_funcionario = dim_funcionarios.pk_funcionario
     )
 
@@ -69,8 +69,8 @@ with
             , PAIS_DESTINATARIO
             , NM_PRODUTO
             , IS_DISCONTINUADO
-            , NM_CATEGORIA
-            , DESCRICAO_CATEGORIA
+            , nm_categorias
+            , ds_categorias
             , NM_FORNECEDOR
             , CIDADE_FORNECEDOR
             , PAIS_FORNECEDOR
